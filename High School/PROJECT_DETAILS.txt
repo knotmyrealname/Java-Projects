@@ -1,0 +1,70 @@
+Here is a list of Descriptions for each project, with their current state:
+
+Access Control: This program is incomplete, and was used as a learning tool for figuring out potential
+password systems, as well as password storing systems. This was one of the few programs during High School
+where I experimented with object oriented programming, in a relatively weird way, looking back on it. 
+
+attemptedforkbomb: This was a gag joke where I tried to program a non-malicious semi-fork bomb while 
+learning about how multithreading worked in java. Surprisingly, it is actually somewhat effective at being
+a fork bomb, even though it doesn't utilize fork, only a set amount of threads that create a bunch of
+JFrames. I actually have a hard time clicking on other applications other than the IDE that I'm running it
+on. 
+
+Calculator: This was a relatively early program where I learned to program a calculator in Java. It is
+mostly functional, although I've noticed that it does seem as if it as a couple bugs, from use cases that
+I probably didn't consider when I was writing it. Additionally, the UI is one of the more broken ones, as
+it was designed on MacOS with tight tolerances for text. 
+
+Counter: This program was written as a tally counter for when I was counting things, as all I had to do was
+click every time I counted something. 
+
+Drawing: This program was one of many programs that I gave myself only a few weeks to try out (I scheduled
+a bunch of stuff ahead of time for when I was to submit deliverables and projects). As a result, I wasn't
+able to actually develop anything resembling a drawing program and only got the basics of the UI done.
+The icons took a while, as I was relatively new to pixel art. The biggest takeaway from this project that
+I've had was the research that I did, as well as how to change the cursor to something different. Also,
+looking at this program on windows, it seems as if something is messing with the graphics in windows, 
+as some modified cursors look pretty hideous, when compared to the pngs and the same cursors on MacOS.
+
+firstattempt: This was my first major program, where I made an ordering system for an old SkillsUSA prompt.
+I took this as an opportunity to learn more about GUIs in Java. It does seem as if this program seems to
+be slightly broken, as I didn't add labels for each box (apparently), and the logs aren't fully featured.
+Additionally, some smaller windows did not take kindly to the transition to Windows, as text is cut off.
+Overall, this is kind of a really bad design of a program, both in frontend and backend, but it's fine
+for what was my first program. 
+
+Food Program: This is a remake of firstattempt, as part of the requirements of the SkillsUSA locals
+competition. I utilized object oriented programming a lot more, with significantly better, but still not
+good, design of the frontend and backend. For this program I did have labels for each section, with a more
+usable interface for receipts and logs, although I did remove taxes (bc nobody likes taxes, lol). As this
+program is less cramped, for the receipts and secondary windows, it took better to the transition to
+Windows. Additionally, one thing that I'm kinda proud of was the new logs system, of which utilizes a
+grid system, that feels more usable and was somewhat technically challenging to implement with a scrollbar.
+
+Notgermanbuttonword: I don't quite remember what the purpose of this program was, however, I think that
+this was one of the first programs that I started using Java GUI elements, such as JButtons, JTextAreas,
+and JTextFields.
+
+Password Management: This program does seem to have unhandled exceptions, however, this was my first attempt
+at trying to make a personal password manager. I used a SHA1 algorithm with a key length of 160 and a 8 byte
+salt, of which I felt was sufficient for the time and use case. Overall, this was a test platform for 
+learning the basics of encryption, as I encountered a few hurdles in the implementation, as well as time
+contraints (since this was one of my pre-scheduled projects out of many), of which lead to me not finishing
+the storage aspects. 
+
+SnekGame: I decided to try to make a snake game as a pre-scheduled project. As a part of it, I designed
+some meh pixel art, as well as a board for playing the game on. I managed to develop most of the logic
+behind the game, such as the positioning of each part of the snake, and their rotation, but I wasn't able
+to figure out a way to animate everything using JLabels. It was very possible that the approach that I was
+taking towards the animations was incorrect, however. Honestly, what these pre-scheduled projects taught
+was that you are very likely to underestimate the scope and time required for projects, especially when
+you are planning and have no idea about all the technical aspects of the project are (as was the case for
+basically all of these pre-scheduled projects)
+
+Web Search: I am currently lacking the external libraries required for this (jsoup) on my current computer,
+but This was basically an exercise in HTML scraping, where I was experimenting with web scraping and
+learning more about it and it's applications/risks. I think I did have a few attempts at scraping major
+sites, however, I mainly focused on our class website, as I didn't want to make too many requests to
+external websites. 
+
+
